@@ -1,0 +1,19 @@
+{
+  "packages" : [
+    "geometry",
+    "multicol",
+    "subfiles",
+    "array",
+    "lmodern",
+    "mathtools",
+    "amssymb",
+    "textcomp",
+    "gensymb",
+    "tikz",
+    "forest",
+    "pythontex",
+    "pgfplots"],
+  "doctype": "article",
+  "docoptions" : [
+    "a4paper"]
+}
