@@ -12,6 +12,8 @@
     "tikz",
     "forest",
     "pythontex",
+    "forest",
+    "tabularx",
     "pgfplots"],
   "doctype": "article",
   "docoptions" : [
