@@ -33,13 +33,58 @@ accuracy is called \textbf{significant figures}.
 Rules for rounding a number to a given number of significant figures:
 
 \begin{center}
-  \begin{tabularx}{\textwidth}{| l | l |}
+  \begin{tabular}{|p{4cm} | p{4cm} |}
     \hline
     Rule    &   Examples \\
     \hline
-    All non-zero digits are significant  & ttt
-  \end{tabularx}
+    All non-zero digits are significant  &
+                                           \begin{itemize}
+                                           \item 9 \(\rightarrow\) 1 sig. fig.
+                                           \item 52 \(\rightarrow\) 2 sig. fig.
+                                           \item 158 \(\rightarrow\) 3 sig. fig.
+                                           \item 6487 \(\rightarrow\) 4 sig. fig.
+                                           \end{itemize} \\ \hline
+    Zeros between non-zero digits are significant &
+                                                    \begin{itemize}
+                                                    \item 503 \(\rightarrow\) 3 sig. fig.
+                                                    \item 8019 \(\rightarrow\) 4 sig. fig.
+                                                    \item 25 007 \(\rightarrow\) 5 sig. fig.
+                                                    \end{itemize} \\ \hline
+    Zeros preceding the first non-zero digit are not significant &
+                                                                   \begin{itemize}
+                                                                   \item 0.001 \(\rightarrow\) 1 sig. fig.
+                                                                   \item 0.389 \(\rightarrow\) 3 sig. fig.
+                                                                   \end{itemize} \\ \hline
+    Zeros following a non-zero digit after the decimal point are significant &
+                                                                               \begin{itemize}
+                                                                               \item  0.090 \(\rightarrow\) 2 sig. fig.
+                                                                               \item  0.200 \(\rightarrow\) 3 sig. fig.
+                                                                               \end{itemize} \\ \hline
+    Zeros following a non-zero digit in a whole number may or may not be significant, depending on how the estimation is made.
+    &
+      \begin{itemize}
+      \item  23 100 \(\rightarrow\) 3 sig. fig. if 23 099 is rounded off to 3 sig. fig.
+      \item  23 100 \(\rightarrow\) 4 sig. fig. if 23 103 is rounded off to 4 sig. fig.
+      \end{itemize} \\ \hline
+
+  \end{tabular}
 \end{center}
+
+Common mistake:
+\begin{itemize}
+\item Many students 28 070 has 5 significant figures. The zero following the number 7 may or
+  may not be significant, depending on how the estimation is made. Therefore, we
+  cannot say that 28 070 has 5 significant figures.
+\item It is incorrect to say that 100 000.20 has only 7 significant figures. We
+  know that the zeros between non-zero digits are significant but do not forget
+  that after the decimal point, the zero following a non-zero digit is also
+  significant. Therefore, 100 000.20 has 8 significant figures.
+ 
+\item We cannot assume that 70 000 with only 1 significant figure is incorrect.
+  The zeros following the number 7 may or may not be significant, depending on
+  how the estimation is made. Therefore, we cannot say that 70 000 does not have
+  1 significant figure. 
+\end{itemize}
 
 
 \end{document}
