@@ -7,7 +7,7 @@
     "lmodern",
     "mathtools",
     "amssymb",
-      "amsmath",
+    "amsmath",
     "textcomp",
     "gensymb",
     "tikz",
