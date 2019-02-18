@@ -56,25 +56,50 @@ Notes:
 \item \(b\) is known as the \(y-\)coordinate.
 \item the coordinate of the origin is \((0,0)\).
 \end{itemize}
+  
+\subsection{Functions}
+The relationship between two variables can be investigated by plotting a graph
+on a Cartesian plane.
 
-\begin{tikzpicture}
+A \textbf(linear graph) is a graph in the form of a straight line.
 
-\begin{axis}[xshift=9cm,
-    xmin=-11,xmax=11,
-    ymin=-11,ymax=11,
-    grid=both,
-    axis lines=middle,
-    minor tick num=5,
-    enlargelimits={abs=0.5},
-    axis line style={latex-latex},
-    ticklabel style={font=\tiny,fill=white},
-    xlabel style={at={(ticklabel* cs:1)},anchor=north west},
-    ylabel style={at={(ticklabel* cs:1)},anchor=south west}
-]
+The equation of a linear graph is of the form \(y=mx +c\), where \(m\) and \(c\)
+are constants. \(x\) and \(y\) are the two variables where their relationship is
+to be investigated.
+\begin{enumerate}
+\item  The graphs of equations of the form \(y=a\) or \(x =a\) where $a$ is a
+  constant are also \textbf{linear}.
+ 
+\item The graph of \(y=a\) is a straight \textbf{horizontal} line where \(x=a\)
+  is a straight \textbf{vertical} line.
+\end{enumerate}
 
-\coordinate (O) at (0,0);
-\node[fill=white,circle,inner sep=0pt] (O-label) at ($(O)+(-135:10pt)$) {$O$};
+\subsection{Graphs of linear functions}
+Steps in plotting a linear graph:
+\begin{enumerate}[label=(\alph*)]
+\item From the information given, construct a table for the values of $x$ and
+  $y$ (if the table is not given).
+ 
+\item On a sheet of graph paper, 
+  \begin{enumerate}[label=(\roman*)]
+  \item draw and label the $x$-axis and $y$-axis,
+  \item plot the points using the values from the table in (a)
+  \item join the points to form a straight line. 
+  \end{enumerate}
+\end{enumerate}
+\item Label the graph with the equation of the line.
 
-\end{axis}
-\end{tikzpicture}
+Note: Pay attention on the information given in the question. Sometimes, the
+variable(s) used for the $x$-axis and/or $y$-axis not $x$ and/or $y$.
+
+\subsection{Gradient of a straight line}
+
+The \textbf{gradient} or \textbf{slope} of a straight line is the measure of the
+steepness of the line. It is defined as follows:
+\[{Gradient\ of\ \ \ line}={\frac {vertical\ change} {horizontal\ change}}\]
+
+The \textbf{greater} the numerical value of a gradient, the \textbf{steeper} the line.
+
+
+  
 \end{document}

@@ -25,6 +25,13 @@ for i in options["packages"]:
 	out.write("}\n")
 out.write("\n")
 
+
+for i in options["tikz-packages"]:
+	out.write("\\usetikzlibrary{")
+	out.write(i)
+	out.write("}\n")
+out.write("\n")
+
 formatting = open("./templates/formatting.tex","r")
 out.write(formatting.read())
 out.write("\n")

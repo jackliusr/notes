@@ -12,9 +12,13 @@
     "gensymb",
     "tikz",
     "forest",
+    "enumitem",
     "pythontex",
     "forest",
     "pgfplots"],
+ "tikz-packages":[
+     "arrows.meta"
+    ],
   "doctype": "article",
   "docoptions" : [
     "a4paper"]
