@@ -17,6 +17,10 @@
     "forest",
     "pgfplots"],
  "tikz-packages":[
+     "quotes",
+     "intersections",
+     "calc",
+     "angles",
      "arrows.meta"
     ],
   "doctype": "article",

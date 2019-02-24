@@ -1,0 +1,67 @@
+\documentclass[../main]{subfiles}
+
+\begin{document}
+
+\section{Basic Geometry}
+\subsubsection{Points, Lines and Planes}
+The most basic geometric figure is a \textbf{point}. All other geometric figures
+are made up of a collection of points. A point has a position but it has neither size nor shape. 
+
+Lines:
+
+When we join two points A and B together, a straight \textbf{line segment} AB is
+formed. A and B are called the \textbf{endpoints}.
+
+If we extended the line segment AB in both directions indefinitely, we get a
+line. 
+
+ray:
+
+point of intersection
+
+Plane:
+A \textbf{plane} is a flat surface in which any two points are joined by a line
+that lies entirely on the surface.  horizontal plane , vertical plane and curved
+surface.
+
+\subsubsection{Angles}
+
+When two rays $OA$ and $OB$ share a common point $O$, an \textbf{angle} is formed.
+$O$ is known as the \textbf{vertex} of the angle, and $OA$ and $OB$ are the
+\textbf{sides or arms} of the angle.
+
+\begin{tikzpicture}
+  \draw
+     (3,-1) coordinate (a) node[right] {A}
+    -- (0,0) coordinate (o) node[left] {O}
+    -- (2,2) coordinate (b) node[above right] {B}
+    pic["$\alpha$", draw=orange, <->, angle eccentricity=1.2, angle radius=1cm]
+    {angle=a--o--b};
+\end{tikzpicture}
+
+The angle is called angle $AOB$ or angle $BOA$ and is written as $\angle AOB$ or
+$\angle BOA$. Another way of writing this angle is $A\hat O B$ or $B\hat O A$.
+When it is clear which angle we are referring to, we may also call it angle $O$
+and write it as $\angle O$ or $\hat O$
+
+Types of Angles
+
+\begin{tabular}{|l|l|l|}
+  \hline
+  Name &  Definition & Illustration \\
+  \hline
+  Acute angle & $0^{\circ} < x^{\circ} < 90^{\circ}$ &
+\begin{tikzpicture}
+  \draw
+     (3,-1) coordinate (a) node[right] {}
+    -- (0,0) coordinate (o) node[left] {}
+    -- (2,2) coordinate (b) node[above right] {}
+    pic["$\alpha$", draw=orange, <->, angle eccentricity=1.2, angle radius=1cm]
+    {angle=a--o--b};
+\end{tikzpicture}
+  \\
+  \hline
+\end{tabular}
+
+
+\end{document}
