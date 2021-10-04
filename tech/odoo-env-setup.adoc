@@ -1,0 +1,12 @@
+= Setup Odoo Development Environment
+
+[source,bash]
+----
+git clone --depth=1 https://github.com/odoo/odoo.git
+cd odoo
+pipenv shell
+pip install -r requirements.txt
+----
+
+== Reference
+https://www.odoo.com/documentation/14.0/developer/howtos/rdtraining/02_setup.html#install-the-dependencies
