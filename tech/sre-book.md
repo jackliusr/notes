@@ -1,5 +1,7 @@
 # Site Reliability Engineering
 
+https://sre.google/sre-book/table-of-contents/
+
 ## Part I - Introduction
 
 ### Chapter 1 - Introduction
@@ -146,3 +148,42 @@ Data collection, aggregation, and alerting configuration that is rarely exercise
 Signals that are collected, but not exposed in any prebaked dashboard nor used by any alert, are candidates for removal.
 
 ### Chapter 7 - The Evolution of Automation at Google
+
+But the approach with the highest leverage actually occurs in the design phase: shipping and iterating rapidly might allow you to implement functionality faster, yet rarely makes for a resilient system. Autonomous operation is difficult to convincingly retrofit to sufficiently large systems, but standard good practices in software engineering will help considerably: having decoupled subsystems, introducing APIs, minimizing side effects, and so on.
+
+Automation: Enabling Failure at Scale
+
+### Chapter 8 - Release Engineering
+
+skill set includes deep knowledge of multiple domains: development, configuration management, test integration, system administration, and customer support.
+
+Philosophy
+* Self-Service Model
+* High Velocity
+* Hermetic Builds
+* Enforcement of Policies and Procedures
+
+Gated operations
+
+###  Chapter 9 - Simplicity
+
+
+## Part III. Practices
+
+Service Reliability Hierarchy
+![Service Reliability Hierarchy](https://lh3.googleusercontent.com/3gX2qgys2I-9HnEIvXUA10ed3AILvg5MclnKWBquEkJKP3g5_kD6WR7Ptwp3TwAGla1DuSmHv64MdTtACNLlArFVq7BwbTrTVhigsA=s900)
+
+### Chapter 10 - Practical Alerting
+
+Rather than requiring management of many individual components, a large system should be designed to aggregate signals and prune outliers
+
+alert for high-level service objectives, but retain the granularity to inspect individual components as needed.
+
+
+### Chapter 11 - Being On-Call
+
+ no more than 25% can be spent on-call, leaving up to another 25% on other types of operational, nonproject work.
+
+### Chapter 12 - Effective Troubleshooting
+
+## Part IV - Management
