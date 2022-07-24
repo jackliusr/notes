@@ -186,4 +186,170 @@ alert for high-level service objectives, but retain the granularity to inspect i
 
 ### Chapter 12 - Effective Troubleshooting
 
+### Chapter 13 - Emergency Response
+
+### Chapter 14 - Managing Incidents
+
+Elements of Incident Management Process
+* Recursive Separation of Responsibilities
+* A Recognized Command Post
+* Live Incident State Document
+* Clear, Live Handoff
+
+Best Practices for Incident Management:
+
+### Chapter 15 - Postmortem Culture: Learning from Failure
+
+### Chapter 16 - Tracking Outages
+
+```
+Escalator
+Outalator
+    Building Your Own Outalator
+    Aggregation
+    Tagging
+    Analysis
+        Reporting and communication
+Unexpected Benefits
+```
+
+### Chapter 17 - Testing for Reliability
+
+The hierarchy of traditional tests
+![The hierarchy of traditional tests](https://lh3.googleusercontent.com/TK6IE07bQYqR2YkDFsfcIz-EcvQ4FbJoD_O0gxzGXJFHXZkrD6N66hLtANofjSkAdQbRtbY7PSAs0lfJKvfkjtFvojahQjUj4ahhEg=s900)
+
+traditional test and production Tests, 
+
+black-box testing
+
+### Chapter 18 - Software Engineering in SRE
+
+Intent-based Capacity Planning
+
+Auxon
+
+![The major components of Auxon](https://lh3.googleusercontent.com/z_XOZMj7dYZLNoXe6lRreL7ApCUhLXNSh65avwBinXCXqvD_YzHoZqfRA5hJzYEZwc15uAbhJMZEWE59x51bsKnC6pHwBGkcciynOw=s900)
+
+### Chapter 19 - Load Balancing at the Frontend
+
+### Chapter 20 - Load Balancing in the Datacenter
+
+### Chapter 21 - Handling Overload
+
+### Chapter 22 - Addressing Cascading Failures
+
+### Chapter 23 - Managing Critical State: Distributed Consensus for Reliability
+### Chapter 24 - Distributed Periodic Scheduling with Cron
+### Chapter 25 - Data Processing Pipelines
+### Chapter 26 - Data Integrity: What You Read Is What You Wrote
+### Chapter 27 - Reliable Product Launches at Scale
+
+
 ## Part IV - Management
+
+### Chapter 28 - Accelerating SREs to On-Call and Beyond
+
+```
+You’ve Hired Your Next SRE(s), Now What?
+Initial Learning Experiences: The Case for Structure Over Chaos
+    Learning Paths That Are Cumulative and Orderly
+    Targeted Project Work, Not Menial Work
+Creating Stellar Reverse Engineers and Improvisational Thinkers
+    Reverse Engineers: Figuring Out How Things Work
+    Statistical and Comparative Thinkers: Stewards of the Scientific Method Under Pressure
+    Improv Artists: When the Unexpected Happens
+    Tying This Together: Reverse Engineering a Production Service
+Five Practices for Aspiring On-Callers
+    A Hunger for Failure: Reading and Sharing Postmortems
+    Disaster Role Playing
+    Break Real Things, Fix Real Things
+    Documentation as Apprenticeship
+    Shadow On-Call Early and Often
+        Tip
+On-Call and Beyond: Rites of Passage, and Practicing Continuing Education
+Closing Thoughts
+```
+
+SRE education practices
+
+<table id="table_training_patterns">
+      <caption class="jumptarget"><span class="label">Table 28-1. </span>SRE education practices</caption>
+      <thead>
+        <tr>
+          <th>Recommended patterns</th>
+          <th>Anti-patterns</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>Designing concrete, sequential learning experiences for students to follow</p></td>
+          <td><p>Deluging students with menial work (e.g., alert/ticket triage) to train them; "trial by fire"</p></td>
+        </tr>
+        <tr>
+          <td><p>Encouraging reverse engineering, statistical thinking, and working from fundamental principles</p></td>
+          <td><p>Training strictly through operator procedures, checklists, and playbooks</p></td>
+        </tr>
+        <tr>
+          <td><p>Celebrating the analysis of failure by suggesting postmortems for students to read</p></td>
+          <td><p>Treating outages as secrets to be buried in order to avoid blame</p></td>
+        </tr>
+        <tr>
+          <td><p>Creating contained but realistic breakages for students to fix using real monitoring and tooling</p></td>
+          <td><p>Having the first chance to fix something only occur after a student is already on-call</p></td>
+        </tr>
+        <tr>
+          <td><p>Role-playing theoretical disasters as a group, to intermingle a team’s problem-solving approaches</p></td>
+          <td><p>Creating experts on the team whose techniques and knowledge are compartmentalized</p></td>
+        </tr>
+        <tr>
+          <td><p>Enabling students to shadow their on-call rotation early, comparing notes with the on-caller</p></td>
+          <td><p>Pushing students into being primary on-call before they achieve a holistic understanding of their service</p></td>
+        </tr>
+        <tr>
+          <td><p>Pairing students with expert SREs to revise targeted sections of the on-call training plan</p></td>
+          <td><p>Treating on-call training plans as static and untouchable except by subject matter experts</p></td>
+        </tr>
+        <tr>
+          <td><p>Carving out nontrivial project work for students to undertake, allowing them to gain partial ownership in the stack</p></td>
+          <td><p>Awarding all new project work to the most senior SREs, leaving junior SREs to pick up the scraps</p></td>
+        </tr>
+      </tbody>
+    </table>
+
+
+A blueprint for bootstrapping an SRE to on-call and beyond
+
+![A blueprint for bootstrapping an SRE to on-call and beyond](https://lh3.googleusercontent.com/CDwDNrtt64hQELdTIedRlPVnAJ6ZHKdWSN2ZCIJjdT-azOAnuB5jpMdUkkHM_fzDhTWkNizsvBDWe8rM78b335ZC80uWRTTB4L_o=s533)
+
+
+follow the RPC
+
+tiered access model
+
+Reverse Engineering a Production Service (without help from its owners).
+
+postmortem reading clubs
+
+on-call learning checklist
+
+reverse shadown
+
+### Chapter 29 - Dealing with Interrupts
+
+### Chapter 30 - Embedding an SRE to Recover from Operational Overload
+### Chapter 31 - Communication and Collaboration in SRE
+### Chapter 32 - The Evolving SRE Engagement Model
+
+## Part V - Conclusions
+### Chapter 33 - Lessons Learned from Other Industries
+### Chapter 34 - Conclusion
+
+
+## Appendixes: 
+
+Appendix A - Availability Table
+Appendix B - A Collection of Best Practices for Production Services
+Appendix C - Example Incident State Document
+Appendix D - Example Postmortem
+Appendix E - Launch Coordination Checklist
+Appendix F - Example Production Meeting Minutes
