@@ -336,6 +336,8 @@ reverse shadown
 
 ### Chapter 29 - Dealing with Interrupts
 
+
+
 ### Chapter 30 - Embedding an SRE to Recover from Operational Overload
 ### Chapter 31 - Communication and Collaboration in SRE
 ### Chapter 32 - The Evolving SRE Engagement Model
@@ -348,8 +350,13 @@ reverse shadown
 ## Appendixes: 
 
 Appendix A - Availability Table
+
 Appendix B - A Collection of Best Practices for Production Services
+
 Appendix C - Example Incident State Document
+
 Appendix D - Example Postmortem
+
 Appendix E - Launch Coordination Checklist
+
 Appendix F - Example Production Meeting Minutes
